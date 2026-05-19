@@ -1,0 +1,51 @@
+# ─── Python ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# ─── Credentials & Secrets ───────────────────────
+*.env
+.env
+secrets.yaml
+credentials.json
+inventory_private.yaml
+*_credentials*
+*_passwords*
+*.key
+*.pem
+*.p12
+
+# ─── Reports & Backups (generated output) ────────
+reports/
+backups/
+*.log
+
+# ─── Terraform ───────────────────────────────────
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# ─── OS & Editor ─────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── GNS3 / EVE-NG large files ───────────────────
+*.qcow2
+*.vmdk
+*.ova
+ios_images/
